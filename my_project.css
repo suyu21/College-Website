@@ -1,0 +1,160 @@
+*{
+     margin:0px 0px 0px 0px;
+     box-sizing: border-box;
+}
+body {
+    background: linear-gradient(135deg, #0a0e2e 0%, #1a1f4c 50%, #0a1428 100%);
+    color: #e8e8f0;
+    box-sizing: border-box;
+   
+}
+header{
+    display:flex;
+    /* background-color: #0a0e2e; */
+    background: rgba(10, 14, 46, 0.9);
+    position:relative;
+}
+
+.header{
+    margin-left: 40px;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    height:101px;
+    width:1000px;
+
+}
+
+.logo{
+ 
+    height:48px;
+    width:48px;
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid rgb(240, 221, 14);
+    border-radius: 10px;
+}
+.logo i{
+    height:28px;
+    width:27px;
+    color:black;
+    font-size: 24px;
+}
+.clg-name {
+    margin: 0px 0px 0px 0px;
+
+}
+.clg-name h1 {
+    margin: 0px 0px 0px 0px;
+    color:#ffd700;
+    font-size: 28px;
+
+}
+.clg-name p{
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:101px;
+    width:600px;
+    font-size: 16px;
+   
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#e8e8f0;
+    font-weight: 400;
+}
+.clg-name {
+    margin-left: 15px;
+}
+
+/**second left**/
+.hero{
+    color:#e8e8f0;
+    display:flex;
+    
+    margin: 70px 100px 0px 100px;
+    
+}
+.attract{
+    height:458px;
+    width:673px;
+}
+
+.badge{
+    margin-top: 20px;
+    color:#ffd700;
+    border: 1px solid #ffd700; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:36px;
+    width:304px;
+    background-color: #9e9770eb;
+    border-radius: 50px;
+}
+
+.attract h1{
+    font-size:96px;
+    height:212px;
+    width:673px;
+}
+.attract p{
+    line-height: 35px;
+    width:600px;
+    height:67px;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    
+}
+.button{
+    display:flex;
+   
+}
+.explore{
+    margin-top:50px;
+    border:1px solid #ffd700;
+    height:56px;
+    width:230px;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    background-color: yellow;
+    
+}
+.download{
+    margin-top:50px;
+    margin-left:45px;
+    border:1px solid #ffd700;
+    height:56px;
+    width:230px;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/** second right**/
+
+.glance-card{
+    margin-top: 50px;
+    margin-left: 200px;
+    width:400px;
+    height:363px;
+    border:1px solid white;
+    flex-shrink: 0%;
+    border-radius: 24px;
+}
+
