@@ -3,6 +3,7 @@
      box-sizing: border-box;
 }
 body {
+
     background: linear-gradient(135deg, #0a0e2e 0%, #1a1f4c 50%, #0a1428 100%);
     color: #e8e8f0;
     box-sizing: border-box;
@@ -35,12 +36,16 @@ header{
     justify-content: center;
     border:1px solid rgb(240, 221, 14);
     border-radius: 10px;
+    background: linear-gradient(135deg, #ffd700, #ffcc00);
+    box-shadow: 
+        0 4px 10px rgba(255, 215, 0, 0.4),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
 }
 .logo i{
     height:28px;
     width:27px;
-    color:black;
-    font-size: 24px;
+    color: #0a0e2e;
+    font-size: 26px;
 }
 .clg-name {
     margin: 0px 0px 0px 0px;
@@ -83,6 +88,7 @@ nav a{
     display:flex;
     
     margin: 70px 100px 0px 100px;
+    height:1000px;
     
 }
 .attract{
@@ -92,15 +98,17 @@ nav a{
 
 .badge{
     margin-top: 20px;
-    color:#ffd700;
+    color:black;
     border: 1px solid #ffd700; 
     display: flex;
     align-items: center;
     justify-content: center;
     height:36px;
     width:304px;
-    background-color: #9e9770eb;
+    /* background-color: #9e9770eb; */
     border-radius: 50px;
+    background: content-box radial-gradient(rgb(237, 239, 211), rgb(237, 226, 13));
+
 }
 
 .attract h1{
@@ -118,6 +126,7 @@ nav a{
 }
 .button{
     display:flex;
+    
    
 }
 .explore{
@@ -131,6 +140,7 @@ nav a{
     justify-content: center;
     color:black;
     background-color: yellow;
+    box-shadow: 10px 5px 5px red;
     
 }
 .download{
@@ -143,6 +153,7 @@ nav a{
     display:flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 10px 5px 5px red;
   
 }
 
@@ -154,7 +165,48 @@ nav a{
     width:400px;
     height:363px;
     border:1px solid white;
+    text-align: center;
     flex-shrink: 0%;
     border-radius: 24px;
+    padding: 20px;
+    z-index: 22px;
+   
+    background: rgba(255, 255, 255, 0.05);   /* glass effect */
+    backdrop-filter: blur(12px);  
 }
 
+.glance-title{
+    padding-top: 50px;
+    font-size: 28px;
+    font-family: serif;
+    color:#ffffff;
+    margin :0 0 32px;
+}
+
+/* Each item */
+.stat-item {
+    margin-bottom: 20px;
+}
+
+/* Label row */
+.stat-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: rgba(203, 182, 182, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Filled line */
+.progress-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+    background-color: yellow;
+}
